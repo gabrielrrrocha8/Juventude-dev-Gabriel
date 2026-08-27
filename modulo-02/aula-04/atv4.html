@@ -7,11 +7,29 @@
 </head>
 <body>
     <form class="/enviar-contato" method="post">
-        <input type="checkbox" name="aceite" valeu="sim">
+        <input type="checkbox" name="aceite" value="sim"> Aceito os termos
         <input type="radio" name="genero" value="f"> Feminino
         <input type="radio" name="genero" value="m"> Masculino
         <input type="radio" name="genero" value="outro"> outro
         <input type="file" name="foto_perfil">
-    </form> 
+        <input type="number" name="numero" value=""> Número para contato
+    <br>
+    <br>
+    <br> 
+    <select name="assunto">
+        <option value="duvida">Dúvida</option>
+        <option value="elogio">Elogio</option>
+        <option value="reclamacao">Reclamação</option>
+    </select>
+
+    <textarea name="mensagem" rows="10" 
+    placeholder="Escreva sua mensagem"></textarea>
+    <button type="submit">Enviar</button>
+</form>
+<br>
+<label for="campo-nome">Nome Completo</label>
+<input type="text" id="campo-nome" name="nome">
+<label for="campo-aceite">Aceito os termos de uso</label>
+<input type="checkbox" id="campo-aceite" name="aceite">
 </body>
 </html>
