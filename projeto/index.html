@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <h1>Meu Portfólio</h1>
+    <p> Meu nome é Gabriel. Sou estudante e tenho interesse em programação, tecnologia e desenvolvimento de sistemas.</p>
+
+    <h2>Habilidades e assuntos de estudos</h2>
+    <ul>
+        <li>HTML</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Git e Github</li>
+    </ul>
+    <a href="https://github.com/gabrielrrrocha8" target="_blank">Meu GitHub</a>
+    <br>
+    <a href="#sobre">Sobre mim</a>
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Instituição</th>
+                <th>Curso</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gabriel</td><td>24</td><td>Cruz das Almas</td><td>UFRB</td><td>BCET</td>
+            </tr>
+        </tbody>
+    </table> 
+
+    <form id="formulario">
+        <label for="campo-nome">Nome Completo</label>
+        <input type="text" id="campo-nome" name="nome" required minlength="3">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <select name="assunto">
+            <option value="duvida">Dúvida</option>
+            <option value="elogio">Elogio</option>
+            <option value="reclamacao">Reclamação</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="3" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <script>
+        const formulario = document.querySelector("#formulario");
+        formulario.addEventListener("submit", function(event){
+            event.preventDefault();
+            alert("Mensagem enviada com sucesso!");});
+    </script>
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Sou estudante de Engenharia da Computação na UFRb. Interessado em progranmação e desenvolvimento de sistemas.
+            Atualmente estou estudando HTML, Python, Java, algoritmos e outras aréas relacionadas A computação.
+        </p>
+        <p>Neu objetivo é desenvolver meus conhecimentos em programação e criar projetos cada vez mais completos.</p>
+    </section>
+</body>
+</html>
