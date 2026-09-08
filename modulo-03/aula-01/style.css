@@ -1,0 +1,32 @@
+body{
+        background: #f4f7fb;
+        font-family: Arial, sans-serif;
+    }
+        
+.cartao{
+    background: white;}
+
+#titulo {
+    color: #2563eb;}
+
+.apresentacao{
+    color: #0b121e;
+    background: #739bcf;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    }
+.bio{
+    color: #0b121e;
+} 
+
+body {color: #2461c4 }
+.destaque {background: #cbc69b; }
+#titulo {font-size: 32px; }
+.cartao p {color: #cdc3c3; }
+.interesses > li {color: #8e73cc; }
+a[href="#"]{color: #0d1018; }
+
+p{color: blue;}
+.aviso{color:purple;}
+#erro{color: red; }
