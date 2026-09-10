@@ -22,11 +22,26 @@ body{
 
 body {color: #2461c4 }
 .destaque {background: #cbc69b; }
-#titulo {font-size: 32px; }
+#titulo {font-size: 2rem; }
 .cartao p {color: #cdc3c3; }
+
+
 .interesses > li {color: #8e73cc; }
 a[href="#"]{color: #0d1018; }
 
 p{color: blue;}
 .aviso{color:purple;}
 #erro{color: red; }
+
+.cartao{
+    width: 320px;
+    padding: 8px;
+    border: 2px solid #93c5fd;
+    margin: 16px; 
+    box-sizing: content-box;
+}
+html{font-size: 16px;}
+#titulo{font-size: 2rem;}
+.cartao{width: 80%;}
+body{min-height: 100vh;}
+.cartao{border-width: 1px;}
