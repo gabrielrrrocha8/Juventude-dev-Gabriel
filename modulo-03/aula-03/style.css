@@ -1,0 +1,33 @@
+header {
+    text-align: center; /* Centraliza o texto */
+    /*margin-bottom: 40px;  Adiciona espaço abaixo */
+    background-color: #507aa3; /* Cor de fundo */
+}
+
+h1 {
+    font-size: 40px; /* Aumenta o tamanho */
+    /*margin-top: 40px; /* Adiciona espaço acima */
+}
+
+header h1 {
+    font-size: 40px;
+    /*margin-top: 40px;*/
+}
+
+.navbar {
+    color: #e1e2eb;
+}
+
+.nav-link {
+    color: rgb(106, 98, 152);
+    font-size: 20px;
+}
+
+
+.container {
+    margin-top: 30px;
+}
+
+.nav-link:hover {
+    color: rgb(45, 45, 115) !important;
+}
