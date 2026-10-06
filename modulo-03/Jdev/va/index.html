@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Aprendendo</title>
+</head>
+<body>
+    <h1>Aprendendo Bootstrap - Botões</h1>
+
+    <h2>Botoes básicos:</h2>
+    <button class = "btn btn-primary">Botão primário</button>
+    <button class = "btn btn-secondary">Botão secundário</button>
+    
+    <h2>Tags de âncora como botões:</h2>
+    <a href = "#" class="btn btn-info">Tag de ancora de info</a>
+    <a href="#" class = "btn btn-success">Tag de ancora de sucesso</a>
+
+    <h2>Diferentes tamanhos de botões:</h2>
+    <button class="btn btn-lg btn-danger">Botão grande(large button)</button>
+    <button class="btn btn-sm btn-warning">Botão pequeno(small button)</button>
+
+    <h2>Estilos de contornos diferentes:</h2>
+    <button class="btn btn-outline-primary">Botão de contorno primário(outline=contorno)</button>
+    <button class="btn btn-outline-secondary">Botão de contorno secundário(outline=contorno)</button>
+
+
+    <h2>Grupos de botões: com os diferents tipos</h2>
+    <div class="btn-group">
+        <a href="#" class = "btn btn-primary">Botão 1</a><!--primary = azul-->
+        <a href="#" class = "btn btn-warning">Botão 2</a>
+        <a href="#" class = "btn btn-dark">Botão 3</a>
+        <a href="#" class = "btn btn-success">Botão 4</a>
+        <a href="#" class = "btn btn-danger">Botão 5</a>
+        <a href="#" class = "btn btn-info">Botão 6</a>
+        <a href="#" class = "btn btn-secondary">Botão 7</a>
+        <a href="#" class = "btn btn-light">Botão 8</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1>classes utilitárias:</h1>
+
+    <h2>Margem e espaçamento interno(margin and padding):</h2>
+    <!--m-1 até m-5 = margin 1 a 5 e p-1 até p-5 = padding 1 a 5-->
+    <div class="bg-primary m-1 p-1">small margin e padding</div>
+    <div class="bg-primary m-5 p-5">large margin e padding</div>
+    <!-- my-1 até my-5 = margin vertical 1 a 5 e py-1 até py-5 = padding vertical 1 a 5-->
+    <!--mx-1 até mx-5 = margin horizontal 1 a 5 e px-1 até px-5 = padding horizontal 1 a 5-->
+    <div class="bg-primary my-1 py-1">small margin e padding vertical</div>
+    <div class="bg-primary my-5 py-5">large margin e padding vertical</div>
+    <div class="bg-primary mx-1 px-1">small margin e padding horizontal</div>
+    <div class="bg-primary mx-5 px-5">large margin e padding horizontal</div>
+    <!-- mt-1 até mt-5 = margin top 1 a 5, me-1 até me-5 = margin end 1 a 5, mb-1 até mb-5 = margin bottom 1 a 5, ms-1 até ms-5 = margin start 1 a 5 -->
+    <!-- pt-1 até pt-5 = padding top 1 a 5, pe-1 até pe-5 = padding end 1 a 5, pb-1 até pb-5 = padding bottom 1 a 5, ps-1 até ps-5 = padding start 1 a 5 -->
+    <!--t = superior, e = direita, b = inferior, s = esquerda-->
+    <div class="bg-primary mt-5 me-5 mb-5 ms-1 pt-1 pb-1 pe-1 ps-1">ffsdfsdfmargin e padding</div>
+
+
+    <h2>bordas(borders):</h2>
+    <div class="m-3 p-3 border border-primary">borda azul</div>
+    <div class="m-3 p-3 border-top border-end border-dark">Borda preta no topo e na direita</div>
+    <div class="m-3 p-3 border-bottom border-start">Borda na parte inferior e à esquerda</div>
+    <div class="m-3 p-3 border border-danger border-5">Borda vermelha e grossa</div>
+    <div class="m-3 p-3 rounded border border-dark border-5">Borda preta, arredondada e grossa (lá ele)</div>
+    <div class="m-3 p-3 rounded-pill border border-dark border-5">Borda preta, mais arredondada (pill) e grossa (lá ele)</div>
+
+
+    <h2>sombra da caixa(box shadow):</h2>
+    <div class="m-3 p-3 shadow">Sombra padrão</div>
+    <div class="m-3 p-3 shadow-sm">Sombra pequena(small)</div>
+    <div class="m-3 p-3 shadow-lg">Sombra grande(large)</div>
+    <div class="m-3 p-3 shadow-none">Sem sombra</div>
+
+
+    <h2>peso da fonte(font weight = fw);</h2>
+    <div class="m-3 p-3 fw-light">Fonte leve</div>
+    <div class="m-3 p-3 fw-normal">Fonte normal</div>
+    <div class="m-3 p-3 fw-bold">Fonte negrito</div>
+    <div class="m-3 p-3 fw-bolder">Fonte negrito</div>
+    <!-- fst = font style -->
+    <div class="m-3 p-3 fst-italic fw-light">Fonte itálica e leve</div>
+    <div class="m-3 p-3 fst-italic">Fonte itálica</div>
+    <br>
+    <br>
+    <br>
+    <h1>Containers:</h1>
+    <div class ="container my-5">
+        <h2>container normal</h2>
+        <p>O container normal tem uma largura fixa e centralizada, dependendo do tamanho da tela.</p>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <h2>container fluido</h2>
+        <p>O container fluido ocupa toda a largura disponível da tela.</p>
+    </div>
+    <br>
+    <div class="container-lg my-5">
+        <h2>container large</h2>
+        <p>O container large tem uma largura fixa e centralizada, mas com um limite maior que o container normal.</p>
+    </div>
+    <br>
+    <div class="container-xl my-5">
+        <h2>container extra large (xl)</h2>
+        <p>O container extra large tem uma largura fixa e centralizada, mas com um limite ainda maior que o container large.</p>
+    </div>
+    <br>
+</body>
+</html>

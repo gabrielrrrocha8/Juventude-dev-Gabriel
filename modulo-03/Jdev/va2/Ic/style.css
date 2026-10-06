@@ -1,0 +1,6 @@
+.container{
+    font-size: 200px;
+    color: #b97f7f;
+    padding: 200px;/*Não está valendo enquanto no index tiver "p-5"*/
+    background-color: #161010;
+}

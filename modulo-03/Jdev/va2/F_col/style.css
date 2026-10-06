@@ -1,0 +1,16 @@
+.row{
+    height: 220px;
+    background-color: aliceblue;
+    /*align-items-xxl: start;--> Faz com que a alinhamento vertical seja alinhado ao início*/ 
+    /*align-items: center;--> Faz com que a alinhamento vertical seja centralizado*/ 
+    /*align-items: end;--> Faz com que a alinhamento vertical seja alinhado ao final*/  
+}
+
+.col-3{
+    background-color: antiquewhite;
+    padding: 20px;
+    border: solid 1px black;
+    /*align-self: start;--> Faz com que a alinhamento vertical seja alinhado ao início*/
+    /*align-self: center;--> Faz com que a alinhamento vertical seja centralizado*/
+    /*align-self: end;--> Faz com que a alinhamento vertical seja alinhado ao final*/
+}

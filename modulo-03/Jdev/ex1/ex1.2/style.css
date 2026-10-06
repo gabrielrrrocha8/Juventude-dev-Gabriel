@@ -1,0 +1,166 @@
+/* =========================
+   CONFIGURAÇÃO GERAL
+   ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 30px;
+}
+
+
+/* =========================
+   PRIMEIRA SEÇÃO
+   ========================= */
+
+.secao-topo {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  height: 180px;
+
+  margin: 0 auto 40px;
+
+  padding: 30px;
+
+  background-color: white;
+
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+
+/* Caixa grande da primeira seção */
+
+.caixa-grande {
+  width: 60%;
+  height: 100px;
+
+  background-color: #3b82f6;
+
+  border-radius: 10px;
+
+  text-align: center;
+  padding: 35px;
+}
+
+
+/* Caixa pequena da primeira seção */
+
+.caixa-pequena {
+  position: fixed;
+  top: 65px;
+  right: 140px;
+  width: 15%;
+  height: 100px;
+
+  background-color: #22c55e;
+
+  border-radius: 10px;
+
+  text-align: center;
+  padding: 35px;
+}
+
+
+/* =========================
+   SEGUNDA SEÇÃO
+   ========================= */
+
+.secao-meio {
+  width: 90%;
+  height: 530px;
+
+  margin: 0 auto 40px;
+
+  padding: 30px;
+
+  background-color: white;
+
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+
+/* Linha que contém a caixa e o círculo */
+
+.linha-superior {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  height: 180px;
+
+  margin-bottom: 50px;
+}
+
+
+/* Caixa da esquerda */
+
+.caixa-esquerda {
+  width: 35%;
+  height: 130px;
+
+  background-color: #f97316;
+
+  border-radius: 10px;
+
+  text-align: center;
+  padding: 50px;
+}
+
+
+/* Círculo */
+
+.circulo {
+  width: 130px;
+  height: 130px;
+
+  background-color: #a855f7;
+
+  border-radius: 50%;
+}
+
+
+/* Caixa inferior */
+
+.caixa-inferior {
+  width: 95%;
+  height: 150px;
+
+  margin: 0 auto;
+
+  background-color: #06b6d4;
+
+  border-radius: 10px;
+
+  text-align: center;
+  padding: 60px;
+}
+
+
+/* =========================
+   TERCEIRA SEÇÃO
+   ========================= */
+
+.secao-final {
+  width: 90%;
+  height: 180px;
+
+  margin: 0 auto;
+
+  background-color: white;
+
+  border: 2px solid #333;
+  border-radius: 10px;
+}
