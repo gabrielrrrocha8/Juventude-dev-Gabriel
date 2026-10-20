@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Loja de Bolos</title>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #fff8f0; }
+        header h1 { color: #7b3f00; }
+        nav a { margin: 0 12px; color: #7b3f00; text-decoration: none; font-weight: 500; }
+        nav a:hover { text-decoration: underline; }
+        h2.secao { color: #7b3f00; }
+        .card-img-top { height: 220px; object-fit: cover; background-color: #e9d8c4; }
+        .preco { font-size: 1.25rem; font-weight: bold; color: #7b3f00; }
+        .btn-comprar { background-color: #7b3f00; border-color: #7b3f00; color: #fff; }
+        .btn-comprar:hover { background-color: #5e3000; border-color: #5e3000; color: #fff; }
+        .destaque { font-size: 2rem; }
+        .form-control:focus, .form-select:focus { border-color: #7b3f00; box-shadow: 0 0 0 .2rem rgba(123, 63, 0, .2); }
+        footer { background-color: #7b3f00; color: #fff; }
+    </style>
+</head>
+
+<body>
+
+    <!-- TÍTULO + MENU -->
+    <header id="topo" class="text-center py-4">
+        <h1>Loja de Bolos</h1>
+        <nav>
+            <a href="#topo">Home</a>
+            <a href="#contato">Contato</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <div class="container pb-4">
+
+        <!-- PRIMEIRA LINHA: 3 CARDS -->
+        <div class="row g-4">
+
+            <div class="col-4">
+                <div class="card h-100">
+                    <img src="bolo1.jpg" class="card-img-top" alt="Bolo de Chocolate">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolo de Chocolate</h5>
+                        <p class="card-text">Delicioso bolo de chocolate com cobertura cremosa.</p>
+                        <p class="preco mt-auto">R$ 25,00</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card h-100">
+                    <img src="bolo2.jpg" class="card-img-top" alt="Bolo de Morango">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolo de Morango</h5>
+                        <p class="card-text">Bolo fresco com morangos suculentos e chantilly.</p>
+                        <p class="preco mt-auto">R$ 30,00</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card h-100">
+                    <img src="bolo3.jpg" class="card-img-top" alt="Bolo de Cenoura">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolo de Cenoura</h5>
+                        <p class="card-text">Clássico bolo de cenoura com cobertura de chocolate.</p>
+                        <p class="preco mt-auto">R$ 20,00</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SEGUNDA LINHA: 2 CARDS -->
+        <div class="row g-4 mt-1">
+
+            <div class="col-6">
+                <div class="card h-100">
+                    <img src="bolo4.jpg" class="card-img-top" alt="Bolo de Baunilha">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolo de Baunilha</h5>
+                        <p class="card-text">Delicioso bolo de baunilha com recheio cremoso.</p>
+                        <p class="preco mt-auto">R$ 28,00</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card h-100">
+                    <img src="bolo5.jpg" class="card-img-top" alt="Bolo de Coco">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolo de Coco</h5>
+                        <p class="card-text">Bolo de coco macio com cobertura especial.</p>
+                        <p class="preco mt-auto">R$ 27,00</p>
+                        <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="pt-5">
+            <h2 class="secao text-center mb-4">Sobre nós</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="lead">
+                        Somos uma confeitaria artesanal que faz bolos com ingredientes selecionados,
+                        receitas de família e muito carinho em cada detalhe.
+                    </p>
+                    <p>
+                        Todos os bolos são preparados no dia, para chegarem fresquinhos à sua mesa,
+                        seja para um café da tarde, um aniversário ou uma comemoração especial.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4 mt-2 text-center">
+                <div class="col-4">
+                    <div class="destaque">🎂</div>
+                    <h5 class="mt-2">Feitos no dia</h5>
+                    <p class="mb-0">Sempre fresquinhos.</p>
+                </div>
+                <div class="col-4">
+                    <div class="destaque">🍓</div>
+                    <h5 class="mt-2">Ingredientes selecionados</h5>
+                    <p class="mb-0">Qualidade em cada receita.</p>
+                </div>
+                <div class="col-4">
+                    <div class="destaque">💛</div>
+                    <h5 class="mt-2">Feito com carinho</h5>
+                    <p class="mb-0">Receitas de família.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="pt-5">
+            <h2 class="secao text-center mb-4">Contato</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-body p-4">
+
+                            <div id="mensagem-sucesso" class="alert alert-success d-none" role="alert">
+                                Mensagem enviada com sucesso! Entraremos em contato em breve.
+                            </div>
+
+                            <form id="form-contato" class="needs-validation" novalidate>
+                                <div class="row g-3">
+
+                                    <div class="col-md-6">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="nome" required>
+                                        <div class="invalid-feedback">Informe seu nome.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">E-mail</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                        <div class="invalid-feedback">Informe um e-mail válido.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="telefone" class="form-label">Telefone (opcional)</label>
+                                        <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="assunto" class="form-label">Assunto</label>
+                                        <select class="form-select" id="assunto" required>
+                                            <option value="" selected disabled>Selecione...</option>
+                                            <option>Fazer uma encomenda</option>
+                                            <option>Dúvidas sobre os bolos</option>
+                                            <option>Elogios e sugestões</option>
+                                            <option>Outro</option>
+                                        </select>
+                                        <div class="invalid-feedback">Escolha um assunto.</div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="mensagem" class="form-label">Mensagem</label>
+                                        <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                                        <div class="invalid-feedback">Escreva sua mensagem.</div>
+                                    </div>
+
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-comprar px-5">Enviar</button>
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-3 mt-4">
+        <p class="mb-0">&copy; 2026 Loja de Bolos - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const form = document.getElementById('form-contato');
+        const sucesso = document.getElementById('mensagem-sucesso');
+
+        form.addEventListener('submit', function (evento) {
+            evento.preventDefault();
+
+            if (!form.checkValidity()) {
+                form.classList.add('was-validated');
+                return;
+            }
+
+            // Aqui os dados ainda não são enviados a lugar nenhum (veja a observação abaixo)
+            sucesso.classList.remove('d-none');
+            form.reset();
+            form.classList.remove('was-validated');
+        });
+    </script>
+
+</body>
+
+</html>
